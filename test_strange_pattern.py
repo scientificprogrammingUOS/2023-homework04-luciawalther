@@ -6,7 +6,7 @@ import types
 try:
     import strange_pattern as testfile
 except ModuleNotFoundError:
-    assert False, "The name of your file is suppoesed to be 'strange_pattern.py'!"
+    assert False, "The name of your file is supposed to be 'strange_pattern.py'!"
 
 def imports_of_your_file(filename):
     """ Yields all imports in the testfile. """
